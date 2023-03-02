@@ -1,0 +1,47 @@
+@import "./font.scss";
+@import "./colors.scss";
+
+:root {
+  /*------------ responsive queries -------*/
+  --screen-640: 640px;
+  --screen-768: 768px;
+  --screen-1024: 1024px;
+  --screen-1280: 1280px;
+  --screen-1440: 1440px;
+  /*------------ responsive queries -------*/
+
+  /*--------------- width screens -----------*/
+  --w-640: 640px;
+  --w-768: 768px;
+  --w-1024: 1024px;
+  --w-1280: 1280px;
+  --w-1440: 1440px;
+  /*--------------- width screens -----------*/
+
+  /*--------------- min width screens -----------*/
+  --min-640: 640px;
+  --min-768: 768px;
+  --min-1024: 1024px;
+  --min-1280: 1280px;
+  --min-1440: 1440px;
+  /*--------------- min width screens -----------*/
+
+  /*--------------- max width screens -----------*/
+  --max-w-640: 640px;
+  --max-w-1440: 1440px;
+  /*--------------- max width screens -----------*/
+}
+
+html {
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
